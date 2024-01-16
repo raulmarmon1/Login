@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <style>
+
+        body{
+            height: 100vh;
+            display: flex;
+            background-image: url(./imagenes/paisaje.jpg);
+            background-size: cover;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #login{
+            background: rgba(255, 255, 255, 0.5); 
+            border-radius: 10px; 
+            text-align: center;
+        }
+
+        #login img {
+            width: 20%;
+            padding-top: 20px;
+        }
+
+        label, input {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2em;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="login">
+        
+        <img src="./imagenes/login-icon-3060.png" alt="Login">
+
+    <form action="login.php">
+
+        <p>
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email">
+        </p>
+
+        <p>
+        <label for="contraseña">Contraseña:</label>
+        <input type="password" id="contraseña" name="contraseña">
+        </p>
+
+    </form>
+    </div>
+    
+</body>
+</html>
